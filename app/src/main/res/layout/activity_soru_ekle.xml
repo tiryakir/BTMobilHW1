@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SoruEkleActivityy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90FACF50"
+    tools:context=".soruEkleActivity">
+
+    <LinearLayout
+        android:id="@+id/SoruYazılanAlan"
+        android:layout_width="336dp"
+        android:layout_height="238dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="42dp">
+
+        <TextView
+            android:id="@+id/TextSoruMetni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:breakStrategy="high_quality"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="@string/soru_metni_yaz_n_z"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/TextSoruMetni2"
+            android:layout_width="match_parent"
+            android:layout_height="206dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="346dp"
+        android:layout_height="198dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="299dp">
+
+        <EditText
+            android:id="@+id/TextA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/a_kk_n_yaz_n_z"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/TextB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/b_kk_n_yaz_n_z"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/TextC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/c_kk_n_yaz_n_z"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/TextD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/d_kk_n_yaz_n_z"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="263dp"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="513dp">
+
+        <EditText
+            android:id="@+id/CorrectAns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/do_ru_k"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/Zorluk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/zorluk_seviyesi"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_ekle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9ED6A0"
+        android:text="@string/ekle"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="578dp" />
+
+</android.support.constraint.ConstraintLayout>

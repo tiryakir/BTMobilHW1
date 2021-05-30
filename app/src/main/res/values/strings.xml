@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BTMobil</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="surname">Surname</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="resim_ekle">Resim Ekle</string>
+    <string name="soru_metni_yaz_n_z">Soru Metni Yazınız</string>
+    <string name="a_kk_n_yaz_n_z">A şıkkını yazınız</string>
+    <string name="b_kk_n_yaz_n_z">B şıkkını yazınız</string>
+    <string name="c_kk_n_yaz_n_z">C şıkkını yazınız</string>
+    <string name="d_kk_n_yaz_n_z">D şıkkını yazınız</string>
+    <string name="do_ru_k">Doğru Şık</string>
+    <string name="zorluk_seviyesi">Zorluk Seviyesi</string>
+    <string name="ekle">EKLE</string>
+    <string name="kayit_ol">KAYIT OL</string>
+</resources>

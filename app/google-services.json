@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "572818876343",
+    "project_id": "btmobil-89a39",
+    "storage_bucket": "btmobil-89a39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572818876343:android:9a5ddceeb5b965b088aa32",
+        "android_client_info": {
+          "package_name": "com.rumeysatiryaki.btmobil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572818876343-kn8cr2uoc9l18vujjrl4s94vnm43b31l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAACFjdgqpwIcBQt-BrV3daDGlLROERki4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572818876343-kn8cr2uoc9l18vujjrl4s94vnm43b31l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

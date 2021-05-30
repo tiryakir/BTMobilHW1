@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FACF50"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="327dp"
+        android:layout_height="146dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="219dp">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:hint="@string/username"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="277dp"
+        android:layout_height="59dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="450dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/signIn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#9ED6A0"
+            android:onClick="signInClicked"
+            android:text="@string/sign_in"
+            android:textColor="#FFFF" />
+
+        <Button
+            android:id="@+id/signUp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#9ED6A0"
+            android:onClick="signUpClicked"
+            android:text="@string/sign_up" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="430dp"
+        android:layout_height="298dp"
+        app:srcCompat="@drawable/schollll"
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="-28dp" />
+
+</android.support.constraint.ConstraintLayout>
